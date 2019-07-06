@@ -1,4 +1,4 @@
-# Sistema de Reservas de Ambientes
+# Sistema de Reservas de Eventos
 
 ## Requerimientos
 
