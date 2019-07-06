@@ -13,7 +13,7 @@ Si se desea instalar este sistema se tiene los siguientes requisitos:
 
 1.- Clonar el proyecto con git
 
-`git https://github.com/alberich5/reservaEvento.git
+`git clone https://github.com/alberich5/reservaEvento.git
 
 2.- Instalar las dependecias de Laravel con composer
 
