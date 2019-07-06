@@ -18,7 +18,7 @@
               </v-card-title>
               <v-divider ></v-divider>
               <v-card-actions>
-                <v-btn outline @click="verReserva(ambiente)" flat dark>Ver Reservas</v-btn>
+                <v-btn outline @click="verReserva(ambiente)" flat dark>Ver Evento</v-btn>
                 
                 <v-btn outline @click="editarAmbiente(ambiente)" color="white" class="ml-4"  v-if="loggin">
                    Editar

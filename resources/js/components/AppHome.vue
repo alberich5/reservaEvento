@@ -19,7 +19,7 @@
         grey lighten-5
         xs12
       >
-        Reserva de Ambientes https://www.youtube.com/casiprogramador
+        Reserva de Eventos alberto34plus@gmail.com
       </v-flex>
     </v-layout>
   </v-footer>

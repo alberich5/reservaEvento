@@ -124,8 +124,8 @@ export default {
             }else{
               this.$notify({
                 group: "notificacion",
-                title: "Ambiente Reservado",
-                text: "Se reservo el ambiente exitosamente",
+                title: "Evento Reservado",
+                text: "Se reservo el evento exitosamente",
                 type: "success",
                 duration: 5000,
               });
@@ -136,8 +136,8 @@ export default {
             this.cargarEventos(this.mes);
             this.$notify({
               group: "notificacion",
-              title: "Error al reservar ambiente",
-              text: "Ocurrio un error al reservar el ambiente",
+              title: "Error al reservar evento",
+              text: "Ocurrio un error al reservar el evento",
               type: "error"
             });
           });
@@ -180,7 +180,7 @@ export default {
       if (value) {
         this.$notify({
           group: "notificacion",
-          title: "Reserva Eliminada",
+          title: "evento Eliminada",
           text: "La reserva se borro exitosamente",
           type: "success",
           duration: 5000,
@@ -188,8 +188,8 @@ export default {
       } else {
         this.$notify({
           group: "notificacion",
-          title: "Reserva sin eliminar",
-          text: "No se pudo eliminar la reserva",
+          title: "Evento sin eliminar",
+          text: "No se pudo eliminar la Evento",
           type: "error"
 
         });

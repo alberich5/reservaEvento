@@ -5,7 +5,7 @@
       <v-flex xs12 md3>
         <v-card >
           <v-card-text>
-              <h3 class="headline mb-0 text-md-center">Registro de Ambiente</h3>
+              <h3 class="headline mb-0 text-md-center">Registro de Eventos</h3>
               <v-form  @submit.prevent="registrarAmbiente">
                  <v-text-field
                 v-model="form.nombre"

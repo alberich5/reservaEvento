@@ -42,7 +42,7 @@
       <v-btn flat>Usuarios</v-btn>
       </router-link>
       <router-link to="/lista-ambientes" v-if="menu.listaAmbientes">
-        <v-btn flat>Ambientes</v-btn>
+        <v-btn flat>Eventos</v-btn>
       </router-link>
       <router-link to="/login" v-if="menu.ingresar">
         <v-btn flat>Ingresar</v-btn>
@@ -54,7 +54,7 @@
 <script>
   export default {
     data: () => ({
-      titulo: 'Reserva Ambientes',
+      titulo: 'Reserva de Eventos',
       usuario: null,
       menu: {
         listaUsuario: false,

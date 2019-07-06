@@ -1931,8 +1931,8 @@ __webpack_require__.r(__webpack_exports__);
           } else {
             _this.$notify({
               group: "notificacion",
-              title: "Ambiente Reservado",
-              text: "Se reservo el ambiente exitosamente",
+              title: "Evento Reservado",
+              text: "Se reservo el evento exitosamente",
               type: "success",
               duration: 5000
             });
@@ -1944,8 +1944,8 @@ __webpack_require__.r(__webpack_exports__);
 
           _this.$notify({
             group: "notificacion",
-            title: "Error al reservar ambiente",
-            text: "Ocurrio un error al reservar el ambiente",
+            title: "Error al reservar evento",
+            text: "Ocurrio un error al reservar el evento",
             type: "error"
           });
         });
@@ -1986,7 +1986,7 @@ __webpack_require__.r(__webpack_exports__);
       if (value) {
         this.$notify({
           group: "notificacion",
-          title: "Reserva Eliminada",
+          title: "evento Eliminada",
           text: "La reserva se borro exitosamente",
           type: "success",
           duration: 5000
@@ -1994,8 +1994,8 @@ __webpack_require__.r(__webpack_exports__);
       } else {
         this.$notify({
           group: "notificacion",
-          title: "Reserva sin eliminar",
-          text: "No se pudo eliminar la reserva",
+          title: "Evento sin eliminar",
+          text: "No se pudo eliminar la Evento",
           type: "error"
         });
       }
@@ -2685,7 +2685,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      titulo: 'Reserva Ambientes',
+      titulo: 'Reserva de Eventos',
       usuario: null,
       menu: {
         listaUsuario: false,
@@ -59240,7 +59240,7 @@ var render = function() {
                 },
                 [
                   _vm._v(
-                    "\n      Reserva de Ambientes https://www.youtube.com/casiprogramador\n    "
+                    "\n      Reserva de Eventos alberto34plus@gmail.com\n    "
                   )
                 ]
               )
@@ -59360,7 +59360,7 @@ var render = function() {
                       _c(
                         "h3",
                         { staticClass: "headline mb-0 text-md-center" },
-                        [_vm._v("Registro de Ambiente")]
+                        [_vm._v("Registro de Eventos")]
                       ),
                       _vm._v(" "),
                       _c(
@@ -59705,7 +59705,7 @@ var render = function() {
                                 }
                               }
                             },
-                            [_vm._v("Ver Reservas")]
+                            [_vm._v("Ver Evento")]
                           ),
                           _vm._v(" "),
                           _vm.loggin
@@ -60447,7 +60447,7 @@ var render = function() {
             ? _c(
                 "router-link",
                 { attrs: { to: "/lista-ambientes" } },
-                [_c("v-btn", { attrs: { flat: "" } }, [_vm._v("Ambientes")])],
+                [_c("v-btn", { attrs: { flat: "" } }, [_vm._v("Eventos")])],
                 1
               )
             : _vm._e(),
@@ -60525,7 +60525,7 @@ var render = function() {
                       _c(
                         "h3",
                         { staticClass: "headline mb-0 text-md-center" },
-                        [_vm._v("Ingrese sus credenciales")]
+                        [_vm._v("Ingrese sus Datos")]
                       ),
                       _vm._v(" "),
                       _vm.error_login
@@ -60580,7 +60580,7 @@ var render = function() {
                                 ? "visibility"
                                 : "visibility_off",
                               type: _vm.showPassword ? "text" : "password",
-                              label: "Ingrese su password",
+                              label: "Ingrese su contraseña",
                               counter: "",
                               required: "",
                               "error-messages": _vm.passwordErrors
@@ -105551,8 +105551,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\reserva-ambientes\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\reserva-ambientes\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\github\reserva-ambientes\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\reserva-ambientes\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -5,7 +5,7 @@
       <v-flex xs12 md4 >
         <v-card >
           <v-card-text>
-              <h3 class="headline mb-0 text-md-center">Ingrese sus credenciales</h3>
+              <h3 class="headline mb-0 text-md-center">Ingrese sus Datos</h3>
               <v-alert
               :value="true"
               type="warning"
@@ -26,7 +26,7 @@
                 v-model="form.password"
                 :append-icon="showPassword ? 'visibility' : 'visibility_off'"
                 :type="showPassword ? 'text' : 'password'"
-                label="Ingrese su password"
+                label="Ingrese su contraseña"
                 counter
                 @click:append="showPassword = !showPassword"
                 required
